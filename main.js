@@ -42,7 +42,7 @@ function lanzarConfetti(){
 /* whatsapp */
 document.getElementById('btnWhatsApp').addEventListener('click', () => {
 
-  const numero = "573187625722"; // cambia esto
+  const numero = "573187625722";
   const mensaje = encodeURIComponent(
     "Hola, confirmo mi asistencia al cumpleaños de Joaquin "
   );
