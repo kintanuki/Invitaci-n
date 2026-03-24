@@ -19,6 +19,17 @@ body {
   src: url('./fonts/MICKEY.TTF') format('truetype');
 }
 
+@font-face {
+  font-family: 'WickedMouse';
+  src: url('./fonts/Wicked Mouse Demo.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'mickeymouse';
+  src: url('./fonts/mickey m tfb.ttf') format('opentype');
+}
+
+
 .card {
   height: auto;
   max-width: 360px;
@@ -86,7 +97,6 @@ body {
   right: 20px;
   transform: rotate(20deg);
 }
-
 
 .decor::before,
 .decor::after {
