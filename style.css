@@ -43,6 +43,26 @@ body {
   animation: entrada 1s ease;
 }
 
+/* fondo transparente */
+.card::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("img/fondo.jpg"); /* 👈 tu imagen */
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.2; /* 👈 TRANSPARENCIA (ajusta aquí) */
+  z-index: 0;
+}
+
+/* asegurar que el contenido quede encima */
+.card > *{
+  position: relative;
+  z-index: 1;
+}
+
 @keyframes entrada {
   from {
     opacity: 0;
@@ -201,6 +221,14 @@ body {
 .info a {
   text-decoration: none;
   color: black;
+}
+
+#icon{
+  background-color: #e61e2a;
+  color: white;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 20px;
 }
 
 /* línea */
