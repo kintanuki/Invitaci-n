@@ -38,7 +38,7 @@ body {
   padding: 25px 20px;
   position: relative;
   overflow: hidden;
-  border: 2px solid #ffd28f;
+  border: 2px solid #d4a24c;
   text-align: center;
   animation: entrada 1s ease;
 }
@@ -121,7 +121,7 @@ body {
 /* textos */
 .small {
   color: #d4a24c;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
@@ -129,6 +129,7 @@ body {
   color: red;
   font-style: italic;
   margin-bottom: 15px;
+  font-size: 13px;
 }
 
 /* imagen */
@@ -139,7 +140,7 @@ body {
 }
 
 /* animación */
-@keyframes flotar {
+/* @keyframes flotar {
   0% {
     transform: translateY(0px);
   }
@@ -151,7 +152,7 @@ body {
   100% {
     transform: translateY(0px);
   }
-}
+} */
 
 /* botón */
 .btn {
@@ -177,13 +178,13 @@ body {
 
 /* contenido */
 .nombre {
-  font-size: 40px;
+  font-size: 25px;
   margin: 20px 0;
-  font-family: 'Mickey', sans-serif;
+  font-family: 'WickedMouse', sans-serif;
 }
 
 .mensaje {
-  font-size: 13px;
+  font-size:  15px;
   color: #555;
   margin-bottom: 15px;
 }

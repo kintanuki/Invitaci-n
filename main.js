@@ -25,7 +25,7 @@ function lanzarConfetti(){
 
     dot.style.left = Math.random()*100+'%';
 
-    dot.style.background = ['red','yellow','black','gray'][
+    dot.style.background = ['red','yellow','black'][
       Math.floor(Math.random()*4)
     ];
 
